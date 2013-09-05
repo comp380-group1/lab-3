@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Group1Lab3</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_name">Enter your name</string>
+    <string name="button_text">Launch Activity</string>
+    <string name="title_activity_display_name">Your Name</string>
+    <string name="hello">Hello, </string>
+
+</resources>
