@@ -7,10 +7,6 @@ public class Participant {
 		this.s = s;
 	}
 	
-	public void setTest(String s) {
-		this.s = s;
-	}
-	
 	public String getTest() {
 		return s;
 	}
