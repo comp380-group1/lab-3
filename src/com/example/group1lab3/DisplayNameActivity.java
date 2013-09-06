@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
@@ -23,7 +22,8 @@ public class DisplayNameActivity extends Activity {
 		Intent intent = getIntent();
 		String userName = intent.getStringExtra("USERNAME");
 		TextView displayName = (TextView) findViewById(R.id.display_name);
-		displayName.setText("Hello, " + userName);
+		Participant p = new Participant(userName);
+		displayName.setText("Hello, " + p.getTest());
 	}
 
 	/**

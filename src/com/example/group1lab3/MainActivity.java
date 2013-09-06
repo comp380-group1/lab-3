@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
 	
 	// handle the launch button onClick event
 	public void launchActivity(View view) {
+		
 		Intent intent = new Intent(this, DisplayNameActivity.class);
 		EditText editName = (EditText) findViewById(R.id.edit_name);
 		String userName = editName.getText().toString();
